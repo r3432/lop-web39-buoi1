@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html, body {
+  height: 100%;
+}
+h1{
+  text-align: center;
+}
+button{
+  background-color: green;
+  font-size: 15px;
+  border-radius: 10px;
+  padding:10px;
+  color:white;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%; 
+  padding: 10px;
+}
+.head {
+  background-color: rgb(207, 200, 193);
+  flex: 0 0 60%;
+  
+ 
+  padding: 20px;
+}
+.head .d1 .icon1,.head .d2 .icon2,.head .d3 .icon3,.head .d4 .icon4{
+  display: flex;
+  justify-content: flex-start;
+  gap:10px;
+}
+.head .d2 ul li,.head .d3 ul li{
+  margin-left: 25px;
+}
+
+.footer {
+  flex: 0 0 40%;
+  background-color: rgb(177, 135, 236);
+  padding: 30px;
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.footer .nd .one, .footer .nd2 .two, .footer .nd3 .three, .footer .nd4 .four {
+  color: rgb(215, 227, 227);
+  padding: 5px;
+  font-size: 20px;
+}
+.footer p {
+  color: rgb(88, 82, 82);
+  padding: 5px;
+  font-size: 14px;
+}
+.footer .icon {
+  font-size: 20px;
+  padding: 5px;
+}

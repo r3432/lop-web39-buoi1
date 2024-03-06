@@ -1,0 +1,44 @@
+h1{
+  color: red;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 100%;
+  height: 800px;
+  background-color: pink;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.box-1{
+  width: 150px;
+  height: 150px;
+  background-color: red;
+ font-size: 30px;
+ color: aliceblue;
+}
+.box-2{
+  width: 150px;
+  height: 150px;
+  background-color: black;
+  font-size: 30px;
+  color: aliceblue;
+}
+.box-3{
+  width: 150px;
+  height: 150px;
+  background-color: green;
+  font-size: 30px;
+  color: aliceblue;
+}
+.box-4{
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+}
