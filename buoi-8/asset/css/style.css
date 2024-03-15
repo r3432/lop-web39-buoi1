@@ -1,0 +1,149 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.loading{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: pink solid 5px;
+  margin: auto;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+ animation: loading 3s  forwards;
+ /* animation-iteration-count: infinite; */
+ animation-timing-function: linear;
+}
+@keyframes loading{
+  from{
+    transform: rotate(0);
+  }
+  to{
+    transform: rotate(360deg);
+  }
+ 
+}
+.heart1{
+  width: 50px;
+  height: 50px;
+  background-color: antiquewhite;
+  margin: auto;
+  position: relative;
+}
+.heart1 :nth-child(1){
+  background-color: pink;
+  top: 0;
+  left: 0;
+}
+ .heart {
+            position: relative;
+            width: 100px;
+            height: 100px;
+            margin: 200px auto;
+            background-color: pink;
+
+   
+            animation: heart ;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            transform: rotate(45deg);
+        }
+        .heart:before,
+        .heart:after {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            content: '';
+           border-radius: 50%;
+           
+            background-color: pink;
+            
+        }
+        .heart:before {
+            bottom: 0px;
+            left: -50px;
+        }
+        .heart:after {
+            top: -50px;
+            right: 0px;
+        }
+        @keyframes heart{
+          from{
+            transform: scale(1,1);
+            transform: rotate(44deg);
+          }
+          to{
+            transform: scale(1.5,1.5);
+            transform: rotate(45deg);
+          }
+        }
+
+.rung{
+  width: 280px;
+  height: 40px;
+  background-color: blanchedalmond;
+  border-radius: 40px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.rung {
+	-webkit-animation: vibrate-1 0.3s linear infinite both;
+	        animation: vibrate-1 0.3s linear infinite both;
+}
+
+
+@-webkit-keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+            transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+            transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+            transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+            transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}
+@keyframes vibrate-1 {
+  0% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+  20% {
+    -webkit-transform: translate(-2px, 2px);
+            transform: translate(-2px, 2px);
+  }
+  40% {
+    -webkit-transform: translate(-2px, -2px);
+            transform: translate(-2px, -2px);
+  }
+  60% {
+    -webkit-transform: translate(2px, 2px);
+            transform: translate(2px, 2px);
+  }
+  80% {
+    -webkit-transform: translate(2px, -2px);
+            transform: translate(2px, -2px);
+  }
+  100% {
+    -webkit-transform: translate(0);
+            transform: translate(0);
+  }
+}

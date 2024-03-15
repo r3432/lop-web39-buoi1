@@ -1,0 +1,91 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  
+}
+.full{
+  width: 100%;
+  height: 800px;
+  background-color: pink;
+}
+.container{
+  width: 900px;
+  background-color: ghostwhite;
+  height: 500px;
+  margin: auto;
+}
+.main{
+  display: flex;
+}
+.fb{
+  width: 530px;
+  height: 600px;
+  background-color: white;
+  padding-top: 48px;
+}
+.fb .para1{
+  color: rgb(75, 75, 207);
+  font-size: 50px;
+  font-family: Helvetica, Arial, sans-serif;
+  
+}
+.box{
+  width: 530px;
+  height: 500px;
+  background-color: wheat;
+  padding-top: 48px;
+  
+}
+/* phan foot */
+.foot .container{
+  width: 100%;
+ height: 200px;
+ background-color: red;
+}
+.nhom1{
+  display: flex;
+  padding-top: 15px;
+}
+.nhom1 div{
+  margin-right: 10px;
+}
+.container .line{
+  width: 100%;
+  height: 5px;
+  background-color: #ffff;
+}
+.box{
+  
+}
+.box .tk{
+  width: 350px;
+  height: 300px;
+  background-color: white;
+  border-radius: 10px;
+  margin: auto;
+  
+}
+.box .tk div{
+  text-align: center;
+  padding-top: 15px;
+  border-radius: 10px ;
+margin-bottom: 5px;
+}
+.box .tk .in1{
+  width: 100%;
+  height: 50px;
+  background-color: blue;
+  
+}
+.box .tk .in1 input{
+  width: 320px;
+  height: ;
+  border: none;
+}
+.m{
+  margin-left: 50px;
+  width: 350px;
+  height: 300px;
+  text-align: center;
+}

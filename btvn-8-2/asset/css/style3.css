@@ -1,0 +1,99 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.phan-1{
+  width: 100%;
+  height: 64px;
+ 
+  margin: auto;
+  border-bottom: 1px solid #DADCE0;
+ 
+}
+
+.phan-1 .giua{
+ 
+  width: 211px;
+  height: 21px;
+padding-top: 15px;
+margin: auto;
+position: sticky;
+z-index: 99;
+}
+.line{
+  width: 0;
+
+}
+
+.container{
+  width: 100%;
+  height: 595px;
+ 
+  
+}
+.phan-2{
+  width: 530px;
+  height: 487px;
+  margin: auto;
+  margin-top: 30px;
+}
+.phan-2 div{
+  margin-bottom: 20px;
+}
+
+.phan-2 .para{
+ 
+  font-size: 32px;
+}
+.phan-2 .pa{
+ 
+  padding-right: 5px;
+}
+.phan-2 .pa .icon{
+  width: 23px;
+  height: 20px;
+  border-radius: 50%;
+  border:1px solid black;
+margin-bottom: -20px;
+text-align: center;
+font-size: 13px;
+}
+.phan-2 .pa .icon i:hover{
+  cursor: pointer;
+}
+.btn{
+  width: 100%;
+  height: 48px;
+  display: flex;
+}
+.btn .btn1,.btn .btn2 {
+width: 249px;
+height: 48px;
+border: 1px solid black;
+color: blue;
+margin-right: 8px;
+border-radius: 20px;
+text-align: center;
+padding-top: 13px;
+}
+.btn .btn1,.btn .btn2:hover{
+  cursor: pointer;
+}
+
+.otext{
+  width: 500px;
+  height: 56px;
+  border:1px solid black;
+  border-radius: 5px;
+}
+.otext input{
+  width: 468px;
+  height: 24px;
+  border: none;
+ margin-top: 15px;
+ margin-left: 10px;
+ 
+}

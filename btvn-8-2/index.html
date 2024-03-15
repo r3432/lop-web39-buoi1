@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email</title>
+  <link rel="stylesheet" href="./asset/css/style.css">
+  <script>
+    function updateSelectedOption(option) {
+      var selectedOption = option.innerText;
+      var dropdownButton = option.closest('.dropdown').querySelector('.dropbtn');
+      dropdownButton.innerText = selectedOption;
+    }
+  </script>
+</head>
+
+<body>
+ <div class="phan-1">
+  <div class="giua">
+  <img src="./asset/lib/banner.svg">
+  </div>
+ </div>
+ <div class="line"></div>
+ <div class="phan-2">
+  <!-- nd1 -->
+<div class="nd1">
+  <div class="tu">Bắt đầu nào </div>
+  <div class="otext">
+    <input type="text" id="inputField" placeholder="Ten doanh nghiep">
+    
+  </div>
+  <div class="radi">
+    <input type="radio" >
+    <a>Chi co ban</a>
+  </div>
+  <div class="radi">
+    <input type="radio" >
+    <a>2 den 9 nguoi</a>
+  </div>
+  <div class="radi">
+    <input type="radio" >
+    <a>10 den 99 nguoi</a>
+  </div>
+  <div class="radi">
+    <input type="radio" >
+    <a>100 den 299 nguoi</a>
+  </div>
+  <div class="radi">
+    <input type="radio" >
+    <a>300+</a>
+  </div>
+  <div class="dropdown">
+    <button class="dropbtn" onclick="toggleDropdown(this.parentElement)">Khu vuc</button>
+    <div class="dropdown-content" data-show-dropdown="false">
+      <a href="#" onclick="updateSelectedOption(this)">Viet Nam</a>
+      <a href="#" onclick="updateSelectedOption(this)">Canada</a>
+      <a href="#" onclick="updateSelectedOption(this)">Indonesia</a>
+      <a href="#" onclick="updateSelectedOption(this)">USA</a>
+      <a href="#" onclick="updateSelectedOption(this)">Singapore</a>
+      <!-- Add more options if needed -->
+    </div>
+  </div>
+<div class="btn">
+  <button onclick="goToNextPage()">Tiếp theo</button>
+</div>
+
+
+</div>
+
+<!--nd2  -->
+<div class="nd2">
+  
+  
+  <!-- radio -->
+<div class="tu">
+<div class="baner1">
+  <img src="./asset/lib/anh1.png">
+
+</div>
+<div class="baner2">
+  
+</div>
+<div class="baner3">
+  <img src="./asset/lib/banner3.svg">
+
+</div>
+<!-- para -->
+<div class="pa">
+  <div class="para1">Trải nghiệm một cách làm việc mới nhờ AI tạo sinh</div>
+  <div class="para2">Khi dùng Google Workspace, bạn có thể mua Gemini dưới dạng tiện ích bổ sung để sáng tạo, kết nối và cộng tác theo cách chưa từng có</div>
+</div>
+</div>
+</div>
+ </div>
+ 
+  
+<script src="./asset/js/script.js"></script>
+</body>
+</html>
