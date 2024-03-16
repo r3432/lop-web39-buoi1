@@ -32,3 +32,33 @@ text-align: center;
   top:0px;
 
 }
+
+.otext {
+  position: relative;
+  margin-bottom: 20px; /* Khoảng cách giữa input và label */
+}
+
+.otext input {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.otext label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  transition: all 0.3s ease;
+  pointer-events: none;
+  color: #999; /* Màu của placeholder */
+}
+
+.otext input:focus + label,
+.otext input:not(:placeholder-shown) + label {
+  top: -10px;
+  font-size: 12px; /* Kích thước nhãn khi di chuyển lên */
+  color: #333; /* Màu của nhãn khi được focus */
+}

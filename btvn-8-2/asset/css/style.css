@@ -13,7 +13,12 @@
   background-color: white; 
   z-index: 99; 
 }
-
+ .nd1 .dropdown:hover{
+cursor: pointer;
+}
+.nd1 .dropdown .dropbtn :hover{
+  cursor: pointer;
+}
 .phan-1 .giua {
   width: 211px;
   height: 21px;
@@ -91,6 +96,25 @@
   height: 56px;
   border:1px solid blue;
   border-radius: 5px;
+
+    position: relative;
+    margin-bottom: 20px; 
+
+}
+.otext label {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  transition: all 0.3s ease;
+  pointer-events: none;
+  color: #999; /* Màu của placeholder */
+}
+
+.otext input:focus + label,
+.otext input:not(:placeholder-shown) + label {
+  top: -10px;
+  font-size: 12px; /* Kích thước nhãn khi di chuyển lên */
+  color: #333; /* Màu của nhãn khi được focus */
 }
 .otext input:focus::placeholder {
   color: transparent; 
@@ -101,10 +125,18 @@
   width: 340px;
   height: 24px;
   border: none;
- margin-top: 5px;
+ margin-top: 10px;
  margin-left: 10px;
  font-size: 16px;
  outline: none;
+}
+.otext input {
+  width: 340px;
+  height: 24px;
+  padding: 10px;
+  border: 1px solid none;
+  border-radius: 5px;
+  outline: none;
 }
 .otext input :hover{
   cursor: text;
