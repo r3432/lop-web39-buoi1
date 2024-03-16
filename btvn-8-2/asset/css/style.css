@@ -42,7 +42,9 @@
 }
 .nd1 .tu{
   font-size: 32px;
-  
+  padding-bottom: 40px;
+  margin-bottom: 10px; /* Thêm margin-bottom ở đây */
+ padding-left: -10px;
 }
 .nd2{
   width: 455px;
@@ -110,7 +112,7 @@
 .tu{
   width: 340px;
   height: 24px;
-  margin-bottom: 10px;
+
 }
 .btn button{
   width: 110px;
