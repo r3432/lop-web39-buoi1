@@ -92,7 +92,7 @@
 }
 .box .tk div{
   text-align: center;
-  padding-top: 15px;
+  padding-top: 1px;
   border-radius: 10px ;
 margin-bottom: 5px;
 }
@@ -107,9 +107,13 @@ margin-bottom: 5px;
   width: 146px;
   height: 47px;
  border: 1px solid black;
+  display: flex;
+  align-items: center;
   margin: auto;
-  background-color: #36A420;
-  
+  padding-left: 10px;
+  background-color: #42b72a;
+  border-radius: 6px;
+  margin-top: 15px;
 }
 .box .tk .in1-1:hover{
   cursor: pointer;
@@ -123,12 +127,20 @@ margin-bottom: 5px;
 .box .tk .in1-0 button:hover{
   cursor: pointer;
 }
-.box .tk .in1-1 button{
+.box .tk .in1-1 a{
   border: none;
   font-size: 17px;
-  background-color: #36A420;
+  background-color: none;
   color: white;
+font-family: inherit;
 
+}
+.duong{
+  width: 100%px;
+  height: 1px;
+background-color: black;
+  padding: 0;
+  margin: 0;
 }
 .box .tk .in1{
   width: 100%;
