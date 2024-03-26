@@ -1,0 +1,26 @@
+.img-pro {
+  position: relative; /* Đảm bảo phần tử được định vị tuyệt đối */
+  width: 424px;
+  height: 542px;
+  top: 225px;
+  left: 1084px;
+  border-radius: 160px 0px 160px 0px;
+ 
+}
+
+.img-pro img {
+  width: 100%; /* Đảm bảo ảnh điền đầy đủ vào phần tử cha */
+  height: 100%;
+  border-radius: 160px 0px 160px 0px; /* Đảm bảo việc làm tròn góc cho ảnh */
+}
+
+.n {
+  position: absolute;
+  width: 424px;
+  height: 542px;
+  top: 245px;
+  left: 1102px;
+  border-radius: 160px 0px 160px 0px;
+  border: 2px solid #00000040;
+  
+}
