@@ -1,0 +1,551 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.full{
+ 
+width: 1920px;
+height: 6110px;
+/* background-color: antiquewhite; */
+}
+.phan1{
+  width:1920px ;
+  height: 847px;
+  background-color: aqua;
+  padding-top: 33px;
+}
+.header{
+  width: 1320px;
+  height: 113px;
+  background-color: antiquewhite;
+ margin: auto;
+}
+.header .top-header{
+  width: 1320px;
+  height: 59px;
+  display: flex;
+  justify-content: space-between;
+  background-color: stroke;
+}
+.header .top-header .icon{
+  width: 25px;
+  height: 25px;
+  transform: scale(1.25);
+  padding-top: 4px;
+  text-align: center;
+}
+/* line */
+.line{
+  width: 1320px;
+  top:59px;
+  border: 1px solid #E3E3E3;
+}
+.logo{
+  display: flex;
+  width: 180px;
+  height: 34px;
+font-size: 11px;
+ margin-left: 170px;
+justify-content: space-between;
+align-items: center;
+
+}
+.logo .Coral{
+font-size: 28px;
+}
+.menu{
+  width: 1320px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.menu div{
+  font-size: 16px;
+ 
+  color: #000000;
+}
+
+/* account */
+.account{
+  display: flex;
+  gap :22px;
+padding-top: 4px;
+padding-right:1px;
+}
+.account .acc1{
+  display: flex;
+  gap:10px;
+ 
+}
+.acc1 .ac{
+font-size: 18px;
+}
+.acc1 i{
+  transform: scale(1.25);
+  padding-top: 5px;
+  margin-right: 3px;
+}
+/* phan2 */
+.phan1-1{
+  width: 1226px;
+  height: 562px;
+  display: flex;
+ background-color: #E3E3E3;
+
+ margin-left: 300px;
+
+}
+.button{
+  width: 223px;
+  height: 70px;
+  gap:8px;
+  font-size: 29px;
+  background-color: #1E2832;
+  padding: 19px 26px 19px 26px;
+ 
+}
+.button i{
+  color: #FFFFFF;
+}
+.button span{
+
+  color: #FFFFFF;
+  
+}
+.phan1-1 .top-banner{
+  display: flex;
+ 
+  width: 1226px;
+  height: 700px;
+  background-color: greenyellow
+  
+}
+.phan1-1 .content{
+  margin-top: 140px;
+  width: 686px;
+  height: 364px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: palevioletred;
+}
+
+.phan1 .img-pro{
+  position: relative; /* Đảm bảo phần tử được định vị tuyệt đối */
+  width: 450px;
+  height: 542px;
+  top: 100px;
+  left: 84px;
+  border-radius: 160px 0px 160px 0px;
+  z-index: 999;
+}
+.phan1-1 .img-pro img{
+  width: 440px;
+  height: 540px;
+  border-radius: 160px 0px 160px 0px;
+  margin-top: -20px;
+  padding-left: 12px;
+}
+
+.n {
+  position: absolute;
+  width: 424px;
+  height: 540px;
+  top: 245px;
+  left: 1102px;
+  border-radius: 160px 0px 160px 0px;
+  border: 2px solid #00000040;
+  
+}
+.content .text1{
+  font-size: 74px;
+ 
+}
+.content .text2{
+  font-size: 30px;
+line-height: 50px;
+margin-bottom: 15px;
+width: 100%;
+}
+
+/* brand */
+.brand{
+  width: 1320px;
+  height: 70px;
+  background-color: pink;
+  padding-top: 90px;
+  margin-left: 300px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 230px;
+}
+.brand .img1{
+  width: 200px;
+  height: 70px;
+ 
+}
+/* hot-category */
+.hot-category{
+  width: 1320px;
+  height: 648px;
+  background-color: aquamarine;
+  padding-top: 150px;
+  margin-left: 300px;
+ 
+ 
+}
+.up-anh {
+  position: relative;
+}
+.text-explore {
+  margin-left: -90px;
+  width: 648px;
+  height: 52px;
+  transform: rotate(90deg); /* Xoay văn bản 90 độ */
+  transform-origin: left top;
+  background-color: aqua;
+}
+/* .text-explore{
+  font-size: 34px;
+  width: 648px;
+  height: 100%;
+text-align: center;
+margin-top: 150px;;
+  padding-left: 0px;
+  writing-mode: vertical-lr;
+background-color: bisque;
+} */
+.up-anh .row2 div{
+  margin-bottom: 20px; /* Điều chỉnh khoảng cách giữa row2 và row3 bằng cách thay đổi giá trị này */
+}
+.up-anh .row3 div{
+  margin-bottom: 20px; /* Điều chỉnh khoảng cách giữa row2 và row3 bằng cách thay đổi giá trị này */
+}
+.hot-category .up-anh .anh {
+  
+  object-fit: cover;
+
+}
+.hot-category .up-anh{
+  display: flex;
+  justify-content: space-between;
+
+  margin-top:-7px;
+}
+.hot-category .up-anh2{
+ 
+}
+
+/* grid-product */
+.grid-product{
+  width: 1320px;
+  height: 1141px;
+  background-color: rgb(16, 96, 172);
+  padding-top:250px;
+  margin-left: 300px;
+}
+.title{
+  width: 707px;
+  height: 59px;
+ margin: auto;
+  font-size: 50px;
+}
+.title .span{
+  text-align: center;
+}
+.top-product{
+  display: flex;
+  justify-content: space-between;
+}
+.top-product .mnu{
+  width: 373px;
+  height: 22px;
+  display: flex;
+  justify-content: space-between;
+}
+.mnu .mnu1{
+  font-size: 16px;
+  color: white;
+}
+.filter{
+  gap:4px;
+  width: 92px;
+  height: 32px;
+  background-color: #1E2832;
+  padding: 5px 15px 5px 15px;
+}
+.filter i{
+  color: white;
+  width: 20px;
+  height: 20px;
+}
+.filter span{
+  font-size: 16px;
+  color: white;
+  width: 38px;
+  height: 22px;
+}
+/* product */
+.product{
+width: 1320px;
+height: 980px;
+display: flex;
+flex-wrap: wrap;
+gap: 18px;
+
+}
+.product div{
+  width: 312px;
+  height: 478px;
+  padding-top: 22px;
+  margin: auto;
+}
+/* banner-zara */
+.banner-zara{
+  width: 1920px;
+  height: 776px;
+  background-color: aquamarine;
+
+}
+.banner-zara .brand1 img{
+  width: 1920px;
+  height: 1341px;
+  padding-top: 271px;
+object-fit: cover;
+position: relative;
+}
+.brand2 img{
+ 
+  width: 739px;
+  height: 309px;
+  margin-left: 1244px;
+  margin-top: -1051px;
+  position: absolute;
+  opacity: 100%;
+}
+.zara-logo{
+  width: 191px;
+  height: 81px;
+  
+  margin-left: 1083px;
+position: absolute;
+margin-top: -1051px;
+opacity: 100%;
+}
+.zara-text{
+  width: 504px;
+  height: 187px;
+  font-size: 26px;
+  margin-left: 1083px;
+  position: absolute;
+  margin-top: -890px;
+  color: #FFFFFF;
+ line-height: 80px;
+}
+.zara-button{
+  width: 237px;
+  height: 72px;
+  background-color: #FFFFFF;
+  position: absolute;
+  margin-left: 1083px;
+  margin-top: -550px;
+  text-align: center;
+  font-size: 29px;
+  padding-top: 17px;
+}
+/* best-seller */
+.best-seller{
+  width: 1320px;
+  height: 639px;
+  margin-left: 300px;
+  background-color: aqua;
+ margin-top: 740px;
+  
+}
+.best-seller .title span{
+ margin-left: 250px;
+
+}
+.best-seller .produ{
+  padding-top: 50px;
+  
+}
+.best-seller .mnu{
+  padding-top: 30px;
+}
+.best-seller .owl-carousel  {
+  
+
+
+
+  
+}
+.produ .owl-nav{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+}
+.produ .owl-nav button span{
+color: gray;
+font-size: 90px;
+height: 40px;
+}
+.produ .owl-dots{
+  position: absolute;
+  /* bottom: 0; */
+  top:93%;
+  left: 50%;
+  transform: translate(-50% ,-50%);
+  width: 0%;
+  opacity: 0;
+}
+.produ .owl-dots span{
+  width: 20px !important;
+  background-color: black;
+}
+.produ .owl-nav .dot{
+  width: 0px;
+  height: 0px;
+}
+
+/* insta */
+.insta{
+  width: 1920px;
+  height: 754px;
+  background-color: #1E28320D;
+}
+.insta .follow{
+  width: 1320px;
+  height: 319px;
+  background-color: rgb(181, 181, 239);
+  margin-left: 300px;
+  margin-top: 50px;  /* khoang cach padding top*/
+}
+.title-insta{
+  width: 1013px;
+  height: 59px;
+  font-size: 50px;
+  margin: auto;
+
+}
+.img-insta{
+ width: 200px;
+ height: 200px;
+ display: flex;
+gap:24px;
+padding-top: 40px;/* khoang cach padding top*/
+}
+.newletter{
+  width: 760px;
+  height: 165px;
+  margin-left: 580px;
+  background-color: orange;
+padding-top: 40px;/* khoang cach padding top*/
+margin-top: 20px;/* khoang cach padding top*/
+}
+.newletter-text{
+  font-size: 50px;
+  width: 707px;
+  height: 59px;
+ margin-left: 70px;
+
+}
+.newletter0{
+display: flex;
+justify-content: space-between;
+}
+.newletter1{
+  padding-top: 30px;/* khoang cach padding top*/
+}
+.newletter1 input{
+  width: 643px;
+  height: 32px;
+  font-size: 16px;
+  border: none;
+  border-bottom: 2px solid black;
+}
+.newletter2{
+  width: 91px;
+  height: 32px;
+  padding-top: 35px;
+  text-align: center;
+}
+.line1{
+  width: 91px;
+}
+/* footer */
+.footer{
+  width: 1920px;
+  height: 355px;
+  background-color: rgb(55, 105, 105);
+  
+}
+.footer-top{
+width: 1320px;
+height: 213px;
+display: flex;
+
+background-color: purple;
+margin: auto;
+
+}
+.footer-top div{
+
+}
+.footer-left1{
+  width: 620px;
+  height:207px ;
+  background-color: pink;
+
+ }
+.footer-left{
+
+}
+.footer--{
+ display: flex;
+ background-color: white;
+ width: 100%;
+display: flex;
+justify-content: space-between;
+margin-left: 55px;
+}
+.footer-{
+  width: 200px;
+  height: 212px;
+ 
+  
+}
+.footer-1{
+
+  width: 200px;
+  height: 212px;
+
+}
+.footer-2{
+ 
+  width: 200px;
+  height: 212px;
+}
+.footer-3{
+
+  width: 200px;
+  height: 212px;
+
+}
+
+.footer-bottom{
+  width: 1920px;
+  height: 52px;
+  background-color: rgb(222, 173, 173);
+  display: flex;
+  justify-content: space-evenly;
+}
+
