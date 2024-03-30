@@ -58,7 +58,7 @@ var a="hello";
 console.log(saochep(a));
 
 
-console.log("---------------")
+console.log("--------------")
 console.log("bai5");
 
 function saochep1(chuoi1){
